@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    max-width: 500;
+    background: url(magandasijzelle.jpg);
+    background-position: auto;
+    background-size: cover;
+    height: 655px;
+    position: relative;
+    top: -18px;
+    image-resolution: 100;
+}
+.content{
+    
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+}
+
+.content .cn{
+    width: 200px;
+    height: 40px;
+    background-color: burlywood;
+    border: none;
+    margin-top: 600px;
+    margin-left: 450px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+    transition: 0.4s ease-in-out;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(243, 243, 207);
+}
+
+.cn:hover{
+    background: chocolate;
+    text-decoration: none;
+    color: chocolate;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .main{
+        width: 1000px;
+        background: url(magandasijzelle.jpg);
+        background-position: auto;
+        background-size: cover;
+        height: 480px;
+        position: relative;
+        top: -18px;
+        image-resolution: 100;
+    }
+
+    .content .cn{
+        width: 200px;
+        height: 50px;
+        background-color: burlywood;
+        border: none;
+        margin-top: 27px;
+        margin-left: 300px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: antiquewhite;
+        transition: 0.4s ease-in-out;
+    }
+
+    .form{
+        width: 1367px;
+        height: 105px;
+        background: rgba(255,251,215);
+        position: fixed;
+        top: 460px;
+        left: 0px;
+        border-radius: 0px;
+    }
+}

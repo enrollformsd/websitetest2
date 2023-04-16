@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    max-width: 500;
+    background: url(GENERAL.jpg);
+    background-position: auto;
+    background-size: cover;
+    height: 97vh;
+    position: relative;
+    top: -18px;
+    image-resolution: 100;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(255, 235, 119);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 20px;
+    float: left;
+    padding: 3px;
+    padding-top: 17px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: clamp(0.9375rem, 0.9375rem + 0vw, 0.9375rem);
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: aquamarine;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid aquamarine;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: aqua;
+    border: 2px solid aqua;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: beige;
+    position: relative;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: cadetblue;
+    border: none;
+    margin-top: 310px;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+    transition: 0.4s ease-in-out;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+}
+
+.cn:hover{
+    background: azure;
+    text-decoration: none;
+    color: azure;
+    color: coral;
+}
+
+.icon a{
+    text-decoration: none;
+    color: azure;
+}
+
+.icon ion-icon{
+    color: burlywood;
+    font-size: 40px;
+    position: relative;
+    right: -285px;
+    bottom: 200px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 80px;
+    text-align: left;
+    transition: .3s ease;
+}
+
+.icon ion-icon:hover{
+    color: chocolate;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .main{
+        width: 200%;
+        background: url(GENERAL.jpg);
+        background-position: auto;
+        background-size: cover;
+        height: 209vh;
+        position: relative;
+        top: -18px;
+        image-resolution: 100;
+    }
+
+    .logo{
+        color: rgb(255, 235, 119);
+        font-size: 55px;
+        font-family: 'Franklin Gothic Medium';
+        padding-left: 20px;
+        float: left;
+        padding: 3px;
+        padding-top: 17px;
+    }
+
+    ul li{
+        list-style: none;
+        margin-left: 60px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+        .form{
+            width: 1920px;
+            height: 20px;
+            background: rgb(255, 251, 215);
+            position: fixed;
+            top: 1046px;
+            left: 0px;
+            border-radius: 0px;
+            padding: 20px;
+        }
+
+        .content .cn{
+            width: 270px;
+            height: 70px;
+            background-color: cadetblue;
+            border: none;
+            margin-top: 650px;
+            margin-left: -170px;
+            font-size: 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: antiquewhite;
+            transition: 0.4s ease-in-out;
+        }
+
+        .icon ion-icon{
+            color: burlywood;
+            font-size: 55px;
+            position: relative;
+            right: -1700px;
+            border-spacing: 10px;
+            padding-left: 5px;
+            padding-top: 2px;
+            margin-top: -22px;
+            text-align: left;
+            transition: .3s ease;
+        }
+
+    }

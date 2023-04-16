@@ -1,0 +1,56 @@
+<style>
+#SHS {
+   position: absolute;
+  top: 5%;
+  right: 0px;
+ }
+#form {
+	position: absolute;
+      top: 30%;
+      right: 1450px;
+}
+#TEXT {
+  position: absolute;
+  top: 30%;
+  left: 500px;
+  color: brown;
+  font-family: Verdana;
+  font-size: 250%;
+}
+#content {
+ background-image:url(magandasially.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: yellow;
+ font-family: Cooper Black;
+ font-size: 100%;
+ width:auto;
+ height: 550px;
+ margin: auto;
+ padding:50px;
+}
+</style>
+
+
+ 	<div id="SHS">
+
+ 	</div>
+
+
+<div id="TEXT">
+
+
+
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+
+        <a href="https://docs.google.com/forms/d/1JhM-YFr87vK9Nxd3uTX9zFbGXN0vlBF73T4p--H0JuA/edit?usp=forms_home&ths=true"><img src="shsenroll.png" id="channel" allign="center" width="350" height="300" > </a>
+ </div>

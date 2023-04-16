@@ -1,0 +1,52 @@
+   <style>
+#HOS {
+   position: absolute;
+  top: 26.3%;
+  right: 1600px;
+ }
+#form {
+	position: absolute;
+      top: 20%;
+      right: 700px;
+}
+#TEXT {
+  position: absolute;
+  top: 20%;
+  left: 350px;
+  color: Red;
+  font-family: Cooper Black;
+  font-size:250%;
+}
+#content {
+ background-image:url(ianianian.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: yellow;
+ font-family: copper black;
+ font-size: 100%;
+ width:auto;
+ height: 950px;
+ margin: auto;
+ padding:50px;
+}
+</style>
+
+
+<div id="TEXT">
+   History of school
+
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+
+
+ </div>
+
+

@@ -1,0 +1,59 @@
+<style>
+#ICT {
+   position: absolute;
+  top: -35%;
+  right: 1200px;
+ }
+#form {
+	position: absolute;
+      top: 17%;
+      right: 1500px;
+}
+#TEXT {
+  position: absolute;
+  top: 6%;
+  left: 500px;
+  color: Cyan;
+  font-family: Verdana;
+  font-size: 250%;
+}
+#content {
+ background-image:url(malakisiian.gif);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: yellow;
+ font-family: Cooper Black;
+ font-size: 100%;
+ width:auto;
+ height: 550px;
+ margin: auto;
+ padding:50px;
+}
+</style>
+
+
+ 	<div id="ICT">
+
+ 	</div>
+
+
+<div id="TEXT">
+
+
+
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+ 
+        <a href="https://docs.google.com/forms/d/1dr-ZMuxgK-qt3GXO0zxeKFfNkVv1Kfqsv0Q5Rg2vpw4/edit"><img src="ictenroll.png" id="channel" align="center" width="350" height="300" > </a>
+ </div>
+
+
+

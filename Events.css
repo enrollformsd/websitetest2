@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.main img{
+    max-width: 980px;
+    height: 550px;
+}
+}

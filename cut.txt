@@ -1,0 +1,30 @@
+
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to text">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+
+
+linear-gradient(to top, rgba(39, 39, 39, 0.5)50%, rgba(39, 39, 39, 0.5)50%),
+
+
+
+                <h2>Log in Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btnn"><a href="#"></a>Log in</button>
+
+                <p class="link">Don't Have An Account<br>
+                <a href="#">Sign Up </a>Here</p>
+                <p class="liw">Log in With</p>
+
+
+.form
+    position: absolute;
+    left: 870px;
+
+
+
+
+ linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%)

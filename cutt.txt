@@ -1,0 +1,47 @@
+   <style>
+#EVNTS {
+   position: absolute;
+  top: 26.3%;
+  right: 1600px;
+ }
+
+#TEXT {
+  position: absolute;
+  top: 5%;
+  left: 650px;
+  color: white;
+  font-family: Cooper Black;
+  font-size:300%;
+}
+#content {
+ background-image:url(event.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: yellow;
+ font-family: copper black;
+ font-size: 100%;
+ width:auto;
+ height: 550px;
+ margin: auto;
+ padding:50px;
+}
+</style>
+
+
+<div id="TEXT">
+  
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+
+
+ </div>
+
+

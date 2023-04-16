@@ -1,0 +1,139 @@
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .main{
+        width: 200%;
+        background: url(GENERAL.jpg);
+        background-position: auto;
+        background-size: cover;
+        height: 209vh;
+        position: relative;
+        top: -18px;
+        image-resolution: 100;
+    }
+
+        .form{
+            width: 1900px;
+            height: 7px;
+            background: rgb(255, 251, 215);
+            position: fixed;
+            top: 1044px;
+            left: 7px;
+            border-radius: 0px;
+            padding: 25px;
+        }
+
+        .content{
+            width: 1200px;
+            height: auto;
+            margin: auto;
+            color: beige;
+            position: relative;
+        }
+
+        .content .cn{
+            width: 160px;
+            height: 40px;
+            background-color: cadetblue;
+            border: none;
+            margin-top: 620px;
+            margin-left: -115px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: antiquewhite;
+            transition: 0.4s ease-in-out;
+        }
+
+        .icon ion-icon{
+            color: burlywood;
+            font-size: 40px;
+            position: relative;
+            right: -1700px;
+            padding-left: 5px;
+            padding-top: 5px;
+            margin-top: -20px;
+            text-align: left;
+            transition: .3s ease;
+        }
+
+    }
+
+
+
+
+   <style>
+#welcome {
+   position: absolute;
+  top: 26.3%;
+  right: 1600px;
+ }
+
+#TEXT {
+  position: absolute;
+  top: 3.5%;
+  left: 250px;
+  color: khaki;
+  font-family:cooper black;
+  font-size:300%;
+}
+#content {
+ background-image:url(welcome.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: black;
+ font-family: copper black;
+ font-size: 200%;
+ width:auto;
+ height: 540px;
+ margin: auto;
+ padding:50px;
+}
+
+
+</style>
+
+
+<div id="TEXT">
+
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+   
+ </div>
+
+
+
+
+
+#icon{
+   text-decoration: none;
+    color: azure;
+}
+
+#icon ion-icon{
+    color: burlywood;
+    font-size: 40px;
+    position: relative;
+    right: -1190px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: -20px;
+    text-align: left;
+    transition: .3s ease;
+}
+
+#icon ion-icon:hover{
+    color: chocolate;
+}
+
+#welcome {
+   position: absolute;
+  top: 26.3%;
+  right: 1600px;
+ }

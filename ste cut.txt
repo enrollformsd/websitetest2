@@ -1,0 +1,59 @@
+ <style>
+#STE {
+   position: absolute;
+  top: -35%;
+  right: 1200px;
+ }
+#form {
+	position: absolute;
+      top: 17%;
+      right: 1500px;
+}
+#TEXT {
+  position: absolute;
+  top: 15%;
+  left: 550px;
+  color: lightgreen;
+  font-family: virdian;
+  font-size: 250%;
+}
+#content {
+ background-image:url(magandasijzelle.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ text-align:center;
+ color: yellow;
+ font-family: Cooper Black;
+ font-size: 100%;
+ width:auto;
+ height: 550px;
+ margin: auto;
+ padding:50px;
+}
+</style>
+
+
+ 	<div id="STE">
+
+ 	</div>
+
+
+<div id="TEXT">
+
+
+
+
+</div>
+
+<div id="content">
+ 
+
+</div>
+
+<div id="form">
+
+        <a href="https://docs.google.com/forms/d/1CPFy8pC2FRLJbxbD3uaHzT33GlMO9G8Dvzry4nYl5JI/edit?usp=forms_home&ths=true"><img src="steenroll.png" id="channel" allign="center" width="350" height="300" > </a>
+
+ </div>
+
+
